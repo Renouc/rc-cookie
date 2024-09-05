@@ -1,0 +1,13 @@
+{
+  "name": "rc-cookie",
+  "version": "1.0.3",
+  "description": "一个便捷使用cookie的工具库",
+  "main": "index.js",
+  "type": "module",
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Renouc",
+  "license": "ISC"
+}
