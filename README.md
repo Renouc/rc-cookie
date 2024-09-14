@@ -23,3 +23,21 @@ const cookie = parseCookie("token");
 // 获取 所有cookie 对象
 const cookies = parseCookie();
 ```
+
+- 使用工具类
+
+```js
+import { CookieStorage } from "rc-cookie";
+
+// 设置 cookie
+CookieStorage.setItem("token", "123456");
+
+// 获取 单个 cookie
+CookieStorage.getItem("token");
+
+// 删除 单个 cookie
+CookieStorage.removeItem("token");
+
+// 清空 cookie
+CookieStorage.clear();
+```

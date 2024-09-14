@@ -1,6 +1,6 @@
 {
   "name": "rc-cookie",
-  "version": "1.0.3",
+  "version": "1.0.9",
   "description": "一个便捷使用cookie的工具库",
   "main": "index.js",
   "type": "module",
@@ -9,5 +9,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Renouc",
-  "license": "ISC"
+  "license": "ISC",
+  "keywords": [
+    "cookie",
+    "cookie-parser",
+    "utils"
+  ]
 }
